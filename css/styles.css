@@ -1,6 +1,27 @@
+@@media screen and (min-width: 480px) {
+  body{
+    padding: 0px;
+  }
+}
 .header{
-  background-image: url("https://www.openoffice.org/marketing/art/galleries/marketing/design_elements/20-Splashscreen-Element-bg_graphic_no_background-thumb.jpg");
-  height: 50em;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7WIpqp5iz0VaDIbj0YZxDCPtqPjLr2DC3VJaP21-GGV6JYEAO8g");
+  height: 20em;
   background-size: cover;
   background-position: center;
+  color: white;
+}
+ul{
+  float:right;
+  list-style-type: none;
+}
+ul li{
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  font-size: 20px;
+}
+ul li a:hover{
+  background-color: white;
+  color:black;
 }
